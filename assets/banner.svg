@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#070a14"/>
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="glowGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25"/>
+      <circle cx="40" cy="40" r="1.2" fill="#64748b" fill-opacity="0.3"/>
+    </pattern>
+
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(0.5deg); }
+      }
+
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(8px) rotate(-0.5deg); }
+      }
+
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.08); }
+      }
+
+      @keyframes dashStream {
+        to { stroke-dashoffset: -80; }
+      }
+
+      @keyframes radarSweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      @keyframes tagPulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.04); }
+      }
+
+      .ambient-orb-1 {
+        animation: pulseGlow 8s ease-in-out infinite;
+        transform-origin: 250px 140px;
+      }
+
+      .ambient-orb-2 {
+        animation: pulseGlow 10s ease-in-out infinite alternate;
+        transform-origin: 950px 280px;
+      }
+
+      .flow-stream {
+        stroke-dasharray: 8 6;
+        animation: dashStream 3s linear infinite;
+      }
+
+      .floating-card-left {
+        animation: floatSlow 6s ease-in-out infinite;
+        transform-origin: center;
+      }
+
+      .floating-card-right {
+        animation: floatReverse 7s ease-in-out infinite;
+        transform-origin: center;
+      }
+
+      .pill-badge {
+        animation: tagPulse 4s ease-in-out infinite;
+        transform-origin: center;
+      }
+
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+      }
+
+      .body-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+
+  <!-- BACKGROUND LAYER -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGradient)"/>
+  <rect width="1200" height="420" rx="16" fill="url(#gridPattern)"/>
+
+  <!-- DYNAMIC AMBIENT GLOWS (BEHIND CONTENT) -->
+  <ellipse class="ambient-orb-1" cx="240" cy="120" rx="280" ry="160" fill="url(#glowGrad1)"/>
+  <ellipse class="ambient-orb-2" cx="960" cy="280" rx="320" ry="180" fill="url(#glowGrad2)"/>
+
+  <!-- ANIMATED FLOW LINES (DECORATIVE BACKGROUND CONNECTORS) -->
+  <g opacity="0.35">
+    <path class="flow-stream" d="M 60 340 C 220 340, 260 370, 420 370" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <path class="flow-stream" d="M 780 370 C 940 370, 980 330, 1140 330" fill="none" stroke="#c084fc" stroke-width="2"/>
+  </g>
+
+  <!-- FLOATING DECORATIVE BACKGROUND CARDS (PLACED OUTSIDE TEXT AREA) -->
+  <!-- Left Side Visual Widget -->
+  <g class="floating-card-left" opacity="0.75">
+    <rect x="50" y="55" width="160" height="70" rx="10" fill="url(#cardGrad)" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1.2"/>
+    <circle cx="72" cy="78" r="6" fill="#38bdf8"/>
+    <rect x="88" y="73" width="75" height="10" rx="4" fill="#94a3b8" fill-opacity="0.6"/>
+    <rect x="72" y="96" width="115" height="8" rx="4" fill="#64748b" fill-opacity="0.4"/>
+    <rect x="72" y="108" width="80" height="6" rx="3" fill="#64748b" fill-opacity="0.25"/>
+  </g>
+
+  <!-- Right Side Visual Widget -->
+  <g class="floating-card-right" opacity="0.75">
+    <rect x="990" y="55" width="160" height="70" rx="10" fill="url(#cardGrad)" stroke="#c084fc" stroke-opacity="0.3" stroke-width="1.2"/>
+    <circle cx="1012" cy="78" r="6" fill="#c084fc"/>
+    <rect x="1028" y="73" width="75" height="10" rx="4" fill="#94a3b8" fill-opacity="0.6"/>
+    <rect x="1012" y="96" width="115" height="8" rx="4" fill="#64748b" fill-opacity="0.4"/>
+    <rect x="1012" y="108" width="60" height="6" rx="3" fill="#64748b" fill-opacity="0.25"/>
+  </g>
+
+  <!-- FOREGROUND LAYER: TITLE & SUBTITLE (CLEANLY CENTERED & CLEAR) -->
+  <g id="foreground-content">
+    <!-- Live Status Pill -->
+    <g transform="translate(600, 75)">
+      <rect x="-135" y="-16" width="270" height="32" rx="16" fill="#1e293b" fill-opacity="0.85" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="-110" cy="0" r="4.5" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text class="body-text" x="-95" y="4" font-size="12" font-weight="600" fill="#38bdf8" letter-spacing="0.08em">CURATED COMPOSABLE ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text class="title-text" x="600" y="160" font-size="52" text-anchor="middle" fill="#ffffff" filter="drop-shadow(0 4px 16px rgba(0,0,0,0.8))">
+      Awesome <tspan fill="url(#primaryGrad)">Visual Headless CMS</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text class="body-text" x="600" y="205" font-size="20" text-anchor="middle" fill="#cbd5e1" letter-spacing="-0.01em">
+      API-First Content Engines • Drag-and-Drop Visual Page Builders • Composable DXP
+    </text>
+
+    <text class="body-text" x="600" y="235" font-size="14.5" text-anchor="middle" fill="#94a3b8">
+      Top SaaS Platforms &amp; Open-Source Projects for Modern Frontends &amp; Content Teams
+    </text>
+
+    <!-- Feature Pills / Chips (Lower Foreground Area) -->
+    <g transform="translate(600, 305)">
+      <!-- Pill 1: Visual Builders -->
+      <g transform="translate(-360, 0)">
+        <rect x="-85" y="-18" width="170" height="36" rx="18" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.5"/>
+        <text class="body-text" x="0" y="5" font-size="13" font-weight="600" fill="#e2e8f0" text-anchor="middle">🎨 Visual Builders</text>
+      </g>
+
+      <!-- Pill 2: Headless CMS -->
+      <g transform="translate(-120, 0)">
+        <rect x="-85" y="-18" width="170" height="36" rx="18" fill="#1e293b" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.5"/>
+        <text class="body-text" x="0" y="5" font-size="13" font-weight="600" fill="#e2e8f0" text-anchor="middle">⚡ Headless APIs</text>
+      </g>
+
+      <!-- Pill 3: Git-Backed & Flat -->
+      <g transform="translate(120, 0)">
+        <rect x="-85" y="-18" width="170" height="36" rx="18" fill="#1e293b" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.5"/>
+        <text class="body-text" x="0" y="5" font-size="13" font-weight="600" fill="#e2e8f0" text-anchor="middle">📦 Git-Backed CMS</text>
+      </g>
+
+      <!-- Pill 4: Composable DXP -->
+      <g transform="translate(360, 0)">
+        <rect x="-85" y="-18" width="170" height="36" rx="18" fill="#1e293b" stroke="#ec4899" stroke-width="1.2" stroke-opacity="0.5"/>
+        <text class="body-text" x="0" y="5" font-size="13" font-weight="600" fill="#e2e8f0" text-anchor="middle">🧩 Composable DXP</text>
+      </g>
+    </g>
+
+    <!-- Bottom Metadata Bar -->
+    <g transform="translate(600, 375)">
+      <text class="body-text" x="0" y="0" font-size="12" fill="#64748b" text-anchor="middle" letter-spacing="0.04em">
+        REACT • NEXT.JS • VUE • NUXT • ASTRO • SVELTE • GRAPHQL • REST APIS
+      </text>
+    </g>
+  </g>
+</svg>
