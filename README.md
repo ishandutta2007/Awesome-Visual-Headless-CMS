@@ -209,3 +209,109 @@ Star the repo if you find it useful!
 Let's expand open workflow orchestration while recognizing the managed convenience that hosted Airflow, Prefect, Dagster, and Temporal clouds deliver.
 # Awesome-Visual-Headless-CMS
 
+# Top Visual Headless CMS Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on API-First Content, Visual Page Building, Structured Content Models & Omnichannel Delivery*  
+**Last updated: October 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Visual & Headless CMS**. These systems separate content from presentation—APIs for apps and websites, often with visual editors or drag-and-drop page builders for marketers and developers.
+
+**Examples** include Contentful, Strapi Cloud, Sanity.io, Storyblok, Prismic, Hygraph, ButterCMS, Agility CMS, Ghost Pro, Kontent.ai, and **Builder.io** (`BuilderIO/builder`)—drag-and-drop headless CMS and visual development.
+
+**Open-source emphasis**: Headless CMS has excellent open options. **Strapi**, **Payload**, **Ghost**, **Keystone**, **Apostrophe**, and **Builder** open components enable self-hosted content platforms. This section is heavily expanded.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[Contentful, Sanity, Storyblok, Prismic, Hygraph, Kontent.ai](https://www.contentful.com/)**  
+  Leading hosted headless CMS platforms—structured content, visual editing (varies by product), and global content delivery APIs.
+
+- **[Builder.io, Agility CMS, ButterCMS](https://www.builder.io/)**  
+  Visual / drag-and-drop oriented headless systems for page building and component-driven experiences.
+
+- **[Strapi Cloud, Ghost Pro](https://strapi.io/)**  
+  Managed offerings of popular open CMS projects—hosting, scaling, and support for teams that prefer not to self-host.
+
+- **[Other commercial headless CMS platforms](https://www.sanity.io/)**  
+  Additional API-first content and experience management services.
+
+## Open-Source GitHub Projects
+
+### Headless & API-First CMS
+
+- **[Strapi](https://github.com/strapi/strapi)**  
+  Leading open-source headless CMS—visual content-type builder, REST/GraphQL APIs, and a large plugin ecosystem (MIT).
+
+- **[Payload](https://github.com/payloadcms/payload)**  
+  Open TypeScript-first headless CMS and application framework—code-defined collections, admin UI, and deep Next.js integration.
+
+- **[Ghost](https://github.com/TryGhost/Ghost)**  
+  Open publishing-focused CMS—modern admin, memberships, and headless API mode for content sites and newsletters.
+
+- **[Keystone](https://github.com/keystonejs/keystone)**  
+  Open Node.js headless CMS and graph-based content platform—flexible schema and Admin UI.
+
+- **[ApostropheCMS](https://github.com/apostrophecms/apostrophe)**  
+  Open in-context editing CMS—visual editing experience with modular page building.
+
+- **[Webiny](https://github.com/webiny/webiny-js)**  
+  Open serverless CMS and application framework—headless content and page builder components.
+
+### Visual Builders & Data Platforms
+
+- **[Builder.io (open SDKs / core)](https://github.com/BuilderIO/builder)**  
+  Visual headless CMS and page builder—open SDKs and drag-and-drop registration for components in modern frontends.
+
+- **[Directus](https://github.com/directus/directus)**  
+  Database-first data platform with a polished admin UI and APIs—source-available with license constraints; widely used as a headless layer over SQL (verify current license for your use case).
+
+- **[TinaCMS](https://github.com/tinacms/tinacms)**  
+  Open Git-backed visual CMS—edit content in context and commit to the repository.
+
+- **[Decap CMS (formerly Netlify CMS)](https://github.com/decaporg/decap-cms)**  
+  Open Git-based CMS for static sites—editorial UI on top of files in the repo.
+
+- **[Sanity Studio (open)](https://github.com/sanity-io/sanity)**  
+  Open real-time content workspace; hosting and Content Lake are commercial—Studio can be customized and self-run.
+
+### Additional Strong Open-Source Options
+
+- **GUI-first headless**: Strapi.
+- **Code-first TypeScript**: Payload.
+- **Publishing / memberships**: Ghost.
+- **In-context visual**: Apostrophe or TinaCMS.
+- **Git-based**: Decap CMS or TinaCMS.
+- **Composable stacks**: Open CMS → Next.js/Astro/Nuxt → CDN; or Builder-style visual layer on top of headless content.
+- Commercial SaaS still leads for global CDN content APIs, collaboration SLAs, and zero-ops editorial workflows.
+
+**Frameworks for building custom systems**:  
+**Strapi** or **Payload** for self-hosted headless; **Ghost** for publications; **Builder** open SDKs for visual page composition; **Tina/Decap** for Git workflows.  
+Fully open headless CMS stacks are production-proven for startups through large content sites.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- CMS platforms hold important business content—back up data, lock down admin access, and review plugin security. License terms differ (MIT vs source-available); confirm compliance before commercial redistribution.
+- Open-source CMS offers ownership and flexibility. Hosted platforms shift uptime and scaling to the vendor. Neither replaces information architecture and editorial process design.
+
+---
+
+**Made for content teams, frontend engineers, and composable architecture builders.**  
+Let's expand open headless and visual CMS while recognizing the collaboration scale that leading commercial content platforms deliver.
