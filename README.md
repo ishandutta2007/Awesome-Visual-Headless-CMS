@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Visual-Headless-CMS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Visual-Headless-CMS?color=yellow&logo=github" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Visual-Headless-CMS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Visual-Headless-CMS?color=yellow&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Visual-Headless-CMS/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Visual-Headless-CMS?color=orange&logo=github" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Visual-Headless-CMS/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Visual-Headless-CMS" alt="GitHub issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Visual-Headless-CMS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
@@ -81,81 +81,81 @@ Open-source headless CMS platforms provide total data sovereignty, self-hosted d
 
 ### 🏆 Top Open-Source CMS & Builders (Ranked by Stars)
 
-The following repositories are **sorted strictly descending by GitHub star count**. Each badge displays the live social star count and links directly to the repository's stargazers.
+The following repositories are **sorted strictly descending by GitHub Stars_Count**. Each badge displays the live social Stars_Count and links directly to the repository's stargazers.
 
-1. **[Strapi](https://github.com/strapi/strapi)** [![GitHub stars](https://img.shields.io/github/stars/strapi/strapi?style=social&color=white)](https://github.com/strapi/strapi/stargazers)  
+1. **[Strapi](https://github.com/strapi/strapi)** [![GitHub_Stars](https://img.shields.io/github/stars/strapi/strapi?style=social&color=white)](https://github.com/strapi/strapi/stargazers)  
    *The leading open-source headless CMS built with 100% JavaScript & TypeScript.*  
    Features an intuitive visual Content-Type Builder, automatic REST and GraphQL API generation, dynamic media library with responsive formats, granular RBAC (Role-Based Access Control), and an expansive plugin marketplace.
 
-2. **[Ghost](https://github.com/TryGhost/Ghost)** [![GitHub stars](https://img.shields.io/github/stars/TryGhost/Ghost?style=social&color=white)](https://github.com/TryGhost/Ghost/stargazers)  
+2. **[Ghost](https://github.com/TryGhost/Ghost)** [![GitHub_Stars](https://img.shields.io/github/stars/TryGhost/Ghost?style=social&color=white)](https://github.com/TryGhost/Ghost/stargazers)  
    *Independent, modern open-source publishing, newsletter, and subscription engine.*  
    Equipped with the extensible Koenig rich-text card editor, integrated member signups and Stripe billing, native SEO tags, and a decoupled headless Content API for modern Jamstack frontends.
 
-3. **[Payload CMS](https://github.com/payloadcms/payload)** [![GitHub stars](https://img.shields.io/github/stars/payloadcms/payload?style=social&color=white)](https://github.com/payloadcms/payload/stargazers)  
+3. **[Payload CMS](https://github.com/payloadcms/payload)** [![GitHub_Stars](https://img.shields.io/github/stars/payloadcms/payload?style=social&color=white)](https://github.com/payloadcms/payload/stargazers)  
    *The open-source, full-stack Next.js and TypeScript-first headless CMS.*  
    Provides schema configuration purely in code, auto-generated TypeScript interfaces, instant GraphQL/REST endpoints, SQLite/PostgreSQL/MongoDB database adaptors, and a custom React-based administrative UI.
 
-4. **[Directus](https://github.com/directus/directus)** [![GitHub stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers)  
+4. **[Directus](https://github.com/directus/directus)** [![GitHub_Stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers)  
    *Instant headless data platform and REST/GraphQL API engine over any SQL database.*  
    Wraps existing PostgreSQL, MySQL, SQLite, Oracle, or SQL Server databases with a polished no-code collaborative studio, real-time WebSockets, granular row-level security, and custom data visualizations.
 
-5. **[GrapesJS](https://github.com/GrapesJS/grapesjs)** [![GitHub stars](https://img.shields.io/github/stars/GrapesJS/grapesjs?style=social&color=white)](https://github.com/GrapesJS/grapesjs/stargazers)  
+5. **[GrapesJS](https://github.com/GrapesJS/grapesjs)** [![GitHub_Stars](https://img.shields.io/github/stars/GrapesJS/grapesjs?style=social&color=white)](https://github.com/GrapesJS/grapesjs/stargazers)  
    *Free, open-source multi-purpose Web Builder Framework and visual template editor.*  
    Enables developers to embed visual HTML/CSS drag-and-drop page builders, responsive device switches, component block systems, and visual styling toolbars into any existing headless CMS.
 
-6. **[Decap CMS](https://github.com/decaporg/decap-cms)** [![GitHub stars](https://img.shields.io/github/stars/decaporg/decap-cms?style=social&color=white)](https://github.com/decaporg/decap-cms/stargazers)  
+6. **[Decap CMS](https://github.com/decaporg/decap-cms)** [![GitHub_Stars](https://img.shields.io/github/stars/decaporg/decap-cms?style=social&color=white)](https://github.com/decaporg/decap-cms/stargazers)  
    *Git-based headless CMS for static site generators (formerly Netlify CMS).*  
    Operates as a client-side React single-page app that interfaces directly with your GitHub, GitLab, or Bitbucket repository. Content edits are committed as standard Git pull requests and commits in Markdown, JSON, or YAML.
 
-7. **[Grav](https://github.com/getgrav/grav)** [![GitHub stars](https://img.shields.io/github/stars/getgrav/grav?style=social&color=white)](https://github.com/getgrav/grav/stargazers)  
+7. **[Grav](https://github.com/getgrav/grav)** [![GitHub_Stars](https://img.shields.io/github/stars/getgrav/grav?style=social&color=white)](https://github.com/getgrav/grav/stargazers)  
    *Modern, crazy-fast, open-source flat-file CMS powered by PHP, Twig, and Markdown.*  
    Requires zero SQL databases—content files are organized in clean filesystem folder hierarchies. Offers headless JSON endpoints, caching, visual admin plugin interfaces, and responsive image handling.
 
-8. **[TinaCMS](https://github.com/tinacms/tinacms)** [![GitHub stars](https://img.shields.io/github/stars/tinacms/tinacms?style=social&color=white)](https://github.com/tinacms/tinacms/stargazers)  
+8. **[TinaCMS](https://github.com/tinacms/tinacms)** [![GitHub_Stars](https://img.shields.io/github/stars/tinacms/tinacms?style=social&color=white)](https://github.com/tinacms/tinacms/stargazers)  
    *Open-source headless CMS with real-time in-context visual editing for Git repositories.*  
    Bridges Markdown/MDX files and Git version control with a live sidebar/on-page editing canvas for Next.js, Astro, Remix, and Hugo. Content changes trigger automated Git commits.
 
-9. **[Puck](https://github.com/puckeditor/puck)** [![GitHub stars](https://img.shields.io/github/stars/puckeditor/puck?style=social&color=white)](https://github.com/puckeditor/puck/stargazers)  
+9. **[Puck](https://github.com/puckeditor/puck)** [![GitHub_Stars](https://img.shields.io/github/stars/puckeditor/puck?style=social&color=white)](https://github.com/puckeditor/puck/stargazers)  
    *The visual editor and component composer for React and Next.js.*  
    Enables software teams to declare standard React components that non-technical editors can drag, drop, configure, and reorder visually within a headless architecture.
 
-10. **[KeystoneJS](https://github.com/keystonejs/keystone)** [![GitHub stars](https://img.shields.io/github/stars/keystonejs/keystone?style=social&color=white)](https://github.com/keystonejs/keystone/stargazers)  
+10. **[KeystoneJS](https://github.com/keystonejs/keystone)** [![GitHub_Stars](https://img.shields.io/github/stars/keystonejs/keystone?style=social&color=white)](https://github.com/keystonejs/keystone/stargazers)  
     *The superpowered headless CMS and GraphQL platform for Node.js.*  
     Features a declarative TypeScript schema configuration that automatically generates a strict GraphQL API and an admin interface built on React, Next.js, and Prisma ORM.
 
-11. **[React Page](https://github.com/react-page/react-page)** [![GitHub stars](https://img.shields.io/github/stars/react-page/react-page?style=social&color=white)](https://github.com/react-page/react-page/stargazers)  
+11. **[React Page](https://github.com/react-page/react-page)** [![GitHub_Stars](https://img.shields.io/github/stars/react-page/react-page?style=social&color=white)](https://github.com/react-page/react-page/stargazers)  
     *Next-gen, highly customizable visual content editor and layout builder for the browser.*  
     Built with React and TypeScript, delivering WYSIWYG capabilities with modular plugins, slate rich text, nested responsive layouts, and JSON output for headless ingestion.
 
-12. **[Builder.io Core SDKs](https://github.com/BuilderIO/builder)** [![GitHub stars](https://img.shields.io/github/stars/BuilderIO/builder?style=social&color=white)](https://github.com/BuilderIO/builder/stargazers)  
+12. **[Builder.io Core SDKs](https://github.com/BuilderIO/builder)** [![GitHub_Stars](https://img.shields.io/github/stars/BuilderIO/builder?style=social&color=white)](https://github.com/BuilderIO/builder/stargazers)  
     *Visual development and drag-and-drop headless SDKs for modern frontend frameworks.*  
     Open-source component connection libraries for React, Vue, Svelte, Qwik, and Angular that render dynamic visual content blocks directly inside modern application shells.
 
-13. **[Webiny](https://github.com/webiny/webiny-js)** [![GitHub stars](https://img.shields.io/github/stars/webiny/webiny-js?style=social&color=white)](https://github.com/webiny/webiny-js/stargazers)  
+13. **[Webiny](https://github.com/webiny/webiny-js)** [![GitHub_Stars](https://img.shields.io/github/stars/webiny/webiny-js?style=social&color=white)](https://github.com/webiny/webiny-js/stargazers)  
     *Serverless enterprise CMS platform architected on AWS Lambda, DynamoDB, and S3.*  
     Provides multi-tenancy, a visual Page Builder, Form Builder, Headless CMS with GraphQL API, lifecycle hooks, and an AI-assisted MCP server for large organizational deployments.
 
-14. **[Sanity Studio Core](https://github.com/sanity-io/sanity)** [![GitHub stars](https://img.shields.io/github/stars/sanity-io/sanity?style=social&color=white)](https://github.com/sanity-io/sanity/stargazers)  
+14. **[Sanity Studio Core](https://github.com/sanity-io/sanity)** [![GitHub_Stars](https://img.shields.io/github/stars/sanity-io/sanity?style=social&color=white)](https://github.com/sanity-io/sanity/stargazers)  
     *The open-source, customizable React content workspace for Sanity.io.*  
     Enables engineering teams to tailor form inputs, configure live preview panes, build custom studio dashboard widgets, and define content models entirely in TypeScript.
 
-15. **[Cockpit CMS](https://github.com/agentejo/cockpit)** [![GitHub stars](https://img.shields.io/github/stars/agentejo/cockpit?style=social&color=white)](https://github.com/agentejo/cockpit/stargazers)  
+15. **[Cockpit CMS](https://github.com/agentejo/cockpit)** [![GitHub_Stars](https://img.shields.io/github/stars/agentejo/cockpit?style=social&color=white)](https://github.com/agentejo/cockpit/stargazers)  
     *Lightweight plug-and-play headless content platform and API-first manager.*  
     Zero configuration overhead, clean administrative dashboard, custom content collections, multi-language support, and lightweight storage options (SQLite or MongoDB).
 
-16. **[ApostropheCMS](https://github.com/apostrophecms/apostrophe)** [![GitHub stars](https://img.shields.io/github/stars/apostrophecms/apostrophe?style=social&color=white)](https://github.com/apostrophecms/apostrophe/stargazers)  
+16. **[ApostropheCMS](https://github.com/apostrophecms/apostrophe)** [![GitHub_Stars](https://img.shields.io/github/stars/apostrophecms/apostrophe?style=social&color=white)](https://github.com/apostrophecms/apostrophe/stargazers)  
     *Full-featured content management framework combining in-context editing and headless APIs.*  
     Built with Node.js, Express, and Vue 3. Supports contextual on-page visual editing, modular widget areas, draft/publish workflows, and decoupled REST/GraphQL endpoints.
 
-17. **[Outstatic](https://github.com/avitorio/outstatic)** [![GitHub stars](https://img.shields.io/github/stars/avitorio/outstatic?style=social&color=white)](https://github.com/avitorio/outstatic/stargazers)  
+17. **[Outstatic](https://github.com/avitorio/outstatic)** [![GitHub_Stars](https://img.shields.io/github/stars/avitorio/outstatic?style=social&color=white)](https://github.com/avitorio/outstatic/stargazers)  
     *Static site CMS and dashboard for Next.js with Markdown and MDX support.*  
     Stores all content files directly inside your GitHub repository without external database dependencies, delivering a clean visual dashboard, custom fields, and Git commits.
 
-18. **[Squidex](https://github.com/Squidex/squidex)** [![GitHub stars](https://img.shields.io/github/stars/Squidex/squidex?style=social&color=white)](https://github.com/Squidex/squidex/stargazers)  
+18. **[Squidex](https://github.com/Squidex/squidex)** [![GitHub_Stars](https://img.shields.io/github/stars/Squidex/squidex?style=social&color=white)](https://github.com/Squidex/squidex/stargazers)  
     *Headless CMS and content management hub built on .NET Core with CQRS & Event Sourcing.*  
     Offers full audit history for every content mutation, GraphQL and REST APIs, rule-based webhooks, digital asset management, and high-performance containerized Docker deployments.
 
-19. **[CrafterCMS](https://github.com/craftersoftware/craftercms)** [![GitHub stars](https://img.shields.io/github/stars/craftersoftware/craftercms?style=social&color=white)](https://github.com/craftersoftware/craftercms/stargazers)  
+19. **[CrafterCMS](https://github.com/craftersoftware/craftercms)** [![GitHub_Stars](https://img.shields.io/github/stars/craftersoftware/craftercms?style=social&color=white)](https://github.com/craftersoftware/craftercms/stargazers)  
     *Git-native headless CMS engineered for enterprise composable digital experiences.*  
     Combines Git-backed versioning, in-context multi-channel previews, decoupled headless microservices, and high-security architectures separating authoring and delivery tiers.
 
@@ -203,7 +203,7 @@ Contributions from the developer and CMS community are warmly welcomed! To sugge
 3. **Add or Update Entries**: Follow the exact markdown format, include factual pricing tiers, free tier specifications, and valid links.
 4. **Sort Appropriately**:
    - For SaaS additions: Sort by company size / revenue descending.
-   - For Open-Source additions: Include the white social star badge and sort by stars descending.
+   - For Open-Source additions: Include the white social Stars_Badge and sort by stars descending.
 5. **Submit a Pull Request** with a concise description of your changes.
 
 Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists!
